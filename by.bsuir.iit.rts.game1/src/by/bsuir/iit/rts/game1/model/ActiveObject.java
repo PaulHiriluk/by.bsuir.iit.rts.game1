@@ -12,7 +12,7 @@ public class ActiveObject extends Object {
 		super();
 		live = true;
 		durability = maxDurability = ActiveObject.DEFAULT_DURABILITY;
-		setInvulnerable(false);
+		setInvulnerable(false); 
 	}
 
 	public int getDurability() {
